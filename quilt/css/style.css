@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+}
+body {
+    margin:0;
+  }
+  
+  .yellow {
+    background-color:yellow;
+    width: 100%;
+    height:100vh;
+  }
