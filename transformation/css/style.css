@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+}
+body {
+    background-color: black;
+    text-align: center;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    height: 100vh;
+    width: 100%;
+}
+.item1 {
+    background-color: green;
+    transition: background-color 5s ease;
+}
+.item1:hover {
+background-color: yellow;
+}
+.item2 {
+    background-color: green;
+    transition: background-color 5s ease;
+}
+.item2:hover {
+    background-color: yellow;
+}
+.item3 {
+    background-color: green;
+    transition: back-ground color 4s;
+    transition: transform 2s ease-in-out;
+}
+.item3:hover {
+background-color: yellow;
+transform: rotate(35deg);
+}
+
+.item3:active {
+    background-color: green;
+    transform: rotate(-35 deg);
+}
+.item4 {
+    background-color: yellow;
+    transition: background-color 5s ease;
+}
+.item4:hover {
+    background-color: red;
+}
+
+.item6{
+    background-color:yellow;
+    transition: background-color 5s ease;
+}
+.item6:hover{
+     background-color:red;
+}
+.item7{
+    background-color:red;
+    transition: background-color 5s ease;
+}
+.item7:hover {
+    background-color:orange;
+}
+.item8{
+    background-color:red;
+    transition: background-color 4s;
+    transition: transform 2s ease-in-out;
+}
+.item8:hover {
+    background-color:red; 
+    transform: rotate(35deg);
+}
+.item8:active{
+    background-color: orange;
+    transform: rotate(-35 deg);
+}
+.item9{
+    background-color: red;
+    transition: background-color 4s;
+    transition: transform 2s ease-in-out;
+}
+.item9:hover {
+    background-color: red;
+    transform: rotate(65deg);
+}
+.item9:active{
+    background-color:orange;
+    transform: rotate(-65deg);
+}
